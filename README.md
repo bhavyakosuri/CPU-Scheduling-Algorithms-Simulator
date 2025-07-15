@@ -1,21 +1,28 @@
+Thank you for pointing that out! Since your project doesn’t include Python execution or CLI simulation as originally stated, I’ll **remove all Python references** and give you the **correct, clean, complete `README.md` content**, purely focused on the **web-based HTML/CSS/JS implementation**.
+
+Here's the finalized Markdown text for your GitHub README:
+
+---
+
+````markdown
 # 🧠 CPU Scheduling Algorithms Simulator
 
-A **Python + HTML/JavaScript-based simulator** for various **CPU Scheduling Algorithms**, including:
+A **browser-based simulator** for various **CPU Scheduling Algorithms**, including:
 
 - **First-Come-First-Serve (FCFS)**
 - **Shortest Job First (SJF)** (Preemptive & Non-Preemptive)
 - **Round Robin**
 - **Priority Scheduling**
 
-The project features a dynamic **Gantt Chart UI** to visualize the execution of these scheduling algorithms. Users input process details such as **arrival time**, **burst time**, and **priority** (if applicable). The system then calculates and displays key metrics:
+The project features a dynamic **Gantt Chart UI** that visualizes the execution of these scheduling algorithms. Users input process details such as **arrival time**, **burst time**, and **priority** (if applicable). The system then calculates and displays key metrics:
 
 - **Waiting Time**
 - **Turnaround Time**
 - **Completion Time**
 
-Gantt Charts are color-coded by process, with an interactive timeline to display execution order, start, and end times. Hovering over a process reveals detailed data. Below the chart, a process table presents the scheduling results, and additional graphical comparisons display performance metrics across algorithms for an intuitive, analytical experience.
+Gantt Charts are color-coded by process, with an interactive timeline showing execution order, start, and end times. Hovering over a process reveals detailed data. Below the chart, a process table presents the scheduling results, and additional graphical comparisons display performance metrics across algorithms for an intuitive and analytical experience.
 
-✅ **Perfect for Operating Systems coursework and scheduling algorithm demonstrations.**
+✅ **Perfect for Operating Systems coursework and CPU scheduling algorithm visualization.**
 
 ---
 
@@ -24,39 +31,41 @@ Gantt Charts are color-coded by process, with an interactive timeline to display
 - 🟦 FCFS, SJF, Round Robin, Priority Scheduling  
 - 🔁 Preemptive + Non-Preemptive Support (SJF)  
 - 📊 Gantt Chart Visualization (HTML + JavaScript)  
-- 🔤 Inputs via Python CLI or Web Interface  
+- 🔤 Interactive Input via Web Interface  
 - 📈 Average Waiting & Turnaround Time Calculation  
-- 🎨 Frontend Styling via Bootstrap  
+- 🎨 Clean Frontend Styling via Bootstrap  
 
 ---
 
 ## 🌐 Web Interface
 
-**To open the web interface:**
+**To use the simulator:**
 
 ```bash
 Open `index.html` in your browser
+````
+
+**The interface uses:**
+
+* **HTML/CSS/JavaScript**
+* `style.css`, `cpu-scheduler.css`, `docs.html`, `explanation.css`, `ganttcharts.html`
+* `cpu-scheduler.js`, `MathJaxSetup.js`, `new.js`
+* **Bootstrap** for responsive layout and styling
+
+---
+
+## 🛠 Technologies Used
+
+* HTML
+* CSS
+* JavaScript
+* Bootstrap
+
+---
+
+## 📁 Project Structure
+
 ```
-The interface uses:
-
-HTML
-
-CSS (style.css, cpu-scheduler.css)
-
-JavaScript (cpu-scheduler.js, MathJaxSetup.js)
-
-Bootstrap for responsive layout
-
-
-🛠 Technologies Used
-
-Python 3.x
-
-HTML / CSS / JavaScript
-
-Bootstrap
-
-📁 Project Structure
 cpu_scheduling/
 │
 ├── Web Files
@@ -78,21 +87,19 @@ cpu_scheduling/
 └── README.md
 ```
 
-📽️ Demo
+---
 
-▶️ Watch the demo video below:
-🎥 CpuSchedulingDemo.webm
+## 📽️ Demo
 
+**▶️ Watch the demo animation below:**
 
-🧪 How to Run (Python CLI)
-Clone the repository
+![CPU Scheduling Demo](./images/CpuSchedulingDemo.gif)
 
-bash
-Copy
-Edit
-git clone https://github.com/bhavyakosuri/CPU-Scheduling-Algorithms-Simulator.git
-cd CPU-Scheduling-Algorithms-Simulator
+---
 
-🙋‍♂️ Author
-Bhavya Naga Sai Kosuri
-🔗 LinkedIn | 💻 GitHub
+## 🙋‍♂️ Author
+
+**Bhavya Naga Sai Kosuri**
+🔗 [LinkedIn](https://www.linkedin.com/in/bhavyakosuri) | 💻 [GitHub](https://github.com/bhavyakosuri)
+
+---
