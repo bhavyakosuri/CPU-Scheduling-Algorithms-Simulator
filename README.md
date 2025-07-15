@@ -76,6 +76,7 @@ cpu_scheduling/
 │
 ├── CpuSchedulingDemo.webm
 └── README.md
+```
 
 📽️ Demo
 
