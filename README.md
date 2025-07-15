@@ -1,10 +1,3 @@
-Thank you for pointing that out! Since your project doesn’t include Python execution or CLI simulation as originally stated, I’ll **remove all Python references** and give you the **correct, clean, complete `README.md` content**, purely focused on the **web-based HTML/CSS/JS implementation**.
-
-Here's the finalized Markdown text for your GitHub README:
-
----
-
-````markdown
 # 🧠 CPU Scheduling Algorithms Simulator
 
 A **browser-based simulator** for various **CPU Scheduling Algorithms**, including:
@@ -24,7 +17,6 @@ Gantt Charts are color-coded by process, with an interactive timeline showing ex
 
 ✅ **Perfect for Operating Systems coursework and CPU scheduling algorithm visualization.**
 
----
 
 ## 🚀 Features
 
@@ -93,7 +85,7 @@ cpu_scheduling/
 
 **▶️ Watch the demo animation below:**
 
-![CPU Scheduling Demo](./images/CpuSchedulingDemo.gif)
+![CPU Scheduling Demo](./CpuSchedulingDemo.gif)
 
 ---
 
