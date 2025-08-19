@@ -1,4 +1,4 @@
-# 🧠 CPU Scheduling Algorithms Simulator
+# CPU Scheduling Algorithms Simulator
 
 A **browser-based simulator** for various **CPU Scheduling Algorithms**, including:
 
